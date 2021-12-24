@@ -1,4 +1,4 @@
-<img src="src/main/webapp/resources/images/icon.jpg" align="right" />
+<img src="src/main/webapp/resources/images/xiamen.jpg" align="right" />
 
 # README(https://github.com/ABNER0216/LYT-Final-Project#readme)
 > This is the group project for course SWE306 for Xiamen University Malaysia
