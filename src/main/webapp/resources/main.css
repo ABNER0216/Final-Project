@@ -1,0 +1,323 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: #808080;	
+}
+.navbar{
+	background: black;	
+	height:15%;
+}
+.nav-link,
+.navbar-brand{
+	color: #fff;
+	cursor: pointer;
+	
+}
+.nav-link{
+	margin-right: 1em;
+}
+.nav-link:hover{
+	color: #808080;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.header{
+	background-image: url('images/b2.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+.description{
+	left:50%;
+	position: absolute;
+	top:45%;
+	transform: translate(-50%,-55%);
+	text-align:center;
+}
+.description h1{
+	color:#FFFFFF;
+	font-family:'Raleway';
+	font-style: oblique;
+}
+.description p{
+	color: #fff;
+	font-size: 1.3rem;
+	font-family:'Raleway';
+	font-style: oblique;
+	line-height: 1.5;
+}
+.description button{
+	border: 1px solid 	#808080;
+	background: 	transparent;
+	border-radius: 0;
+	color: #fff;
+}
+
+.features{
+	margin: 4em auto; 
+	padding: 1em;
+	
+}
+
+.feature-title{
+	color:#333;
+	font-size: 1.3rem; 
+	font-weight: 500; 
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.features img{
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+}
+
+.features .form-control, 
+.features input{
+	border-radius: 0;
+}
+
+.features .btn{
+	background-color:#6cbf43;
+	border: 1px solid #6cbf43 ; 
+	color: #fff;
+	margin-top: 20px;
+}
+
+.features .btn:hover{
+	background-color: #333;
+	border: 1px solid #333;
+}
+
+.background{
+	background: rgb(235, 235, 222);
+	padding: 4em 0;
+}
+.team{
+	color: #5e5e55;
+	padding: 0 180px;
+}
+.team .card-columns{
+	-webkit-column-count: 4;
+	-moz-column-count: 4;
+	column-count: 4;
+}
+.team .card{
+	background:none;
+	border:none;
+}
+.team .card-title{
+	font-size: 1.3rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+.page-footer{
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+.footer-copyright{
+	color: #666;
+	padding: 40px 0;
+}
+h2{
+	position:absolute;
+	top:230px;
+	left:31%;
+	color:white;
+	font-size:35px;
+	font-family:'Raleway';
+	font-style: oblique;
+}
+h4{
+	position:absolute;
+	top:280px;
+	left:45%;
+	color:white;
+	font-size:35px;
+	font-family:'Raleway';
+	font-style: oblique;
+}
+#coachlogin{
+	height:620px;
+	background-image:url(images/login-background.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#coachlogin-table{
+	position:absolute;
+	top:370px;
+	left:42%;
+}
+#coachlogin-table td{
+	font-size:20px;
+	color:white;
+}
+#submit{
+	position:absolute;
+	top:530px;
+	left:47%;
+	color:white;
+}
+#adminlogin{
+	height:620px;
+	background-image:url(images/AdministratorLogin-Background.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#admin-title{
+	position:absolute;
+	top:280px;
+	left:595px;
+	color:white;
+	font-size:35px;
+	font-family:'Raleway';
+	font-style: oblique;
+}
+#studentlogin{
+	height:800px;
+	background-image:url(images/StudentLogin-Background.jpg);
+	background-size:cover;
+	background-position:center;
+}
+#studentsubmit{
+	position:absolute;
+	top:580px;
+	left:47%;
+	color:white;
+}
+h6{
+	font-size:20px;
+	font-family:'Impact';
+	letter-spacing:4px;
+	
+}
+#font{
+	position:relative;
+	top:45px;
+}
+#editbutton{
+	position:relative;
+	left:80px;
+}
+#addbutton{
+	position:relative;
+	left:120px;
+}
+#replaybutton{
+	position:relative;
+	left:200px;
+	top:100px;
+}
+#theform{
+	position:relative;
+	top:50px;
+}
+#feedbackform{
+	height:200px;
+}
+#reply{
+	position:relative;
+	left:-10px;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+/* 幻灯片容器 */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  height:500px;
+  width:700px;
+}
+#homepageimg{
+	position:absolute;
+	left:20px;
+	height:500px;
+	top:810px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* 标题文本 */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 数字文本 (1/3 等) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* 标记符号 */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* 淡出动画 */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#blank{
+	height:500px;
+}
+
+#introduction{
+	padding-top:80px;
+	padding-right:80px;
+	padding-bottom:80px;
+	padding-left:80px;
+	background-color:#C5C4B2;
+	width:630px;
+	position:absolute;
+	left:850px;
+	top:45px;
+	border-radius:20px;
+}

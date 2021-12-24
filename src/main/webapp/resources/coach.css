@@ -1,0 +1,114 @@
+@charset "UTF-8";
+#return{
+	position:absolute;
+	left:45%;
+}
+#coachbody{
+	height:500px;
+}
+#allcoursebody{
+	height:700px;
+}
+#coachmain{
+	background-image:url('images/coachmainpage.jpg');
+	background-size: cover;
+	background-position: center;
+	height:700px;
+}
+#coach-mainpage1{
+	left:79%;
+	position: absolute;
+	top:45%;
+}
+#coach-mainpage2{
+	left:1.5%;
+	position: absolute;
+	top:45%;
+}
+#coach-mainpage3{
+	left:29%;
+	position: absolute;
+	top:45%;
+}
+#coach-mainpage4{
+	left:52%;
+	position: absolute;
+	top:45%;
+}
+#detailbutton{
+	position:relative;
+	left:45%;
+}
+#detailbody{
+	width:55%;
+	position:relative;
+	left:23%;
+}
+#detailbody dt{
+	font-size:20px;
+	background-color:#4B4A4A;
+	color:white;
+	
+}
+#detailbody dd{
+	font-size:18px;
+	
+}
+#coursebutton{
+	position:absolute;
+	left:45%;
+}
+#detailform{
+	width:55%;
+	position:absolute;
+	left:23%;
+}
+#informationreturn{
+	position:relative;
+	left:51%;
+}
+#informationedit{
+	position:relative;
+	top:-40px;
+	left:41%;
+}
+#button1{
+	position:relative;
+	left:50px;
+	left:72%;
+	
+}
+#button2{
+	position:relative;
+	top:-58px;
+	left:37%;
+}
+#coachphoto{
+	position:relative;
+	left:37%;
+}
+#email{
+	position:absolute;
+	top:32px;
+	right:135px;
+	height:28%;
+	width:3%;
+}
+#previous{
+	position:absolute;
+	top:600px;
+	left:37%;
+}
+#next{
+	position:absolute;
+	top:600px;
+	left:54%;
+}
+#page{
+	position:relative;
+	top:60px;
+}
+#emaillist{
+	position:absolute;
+	left:20%;
+}

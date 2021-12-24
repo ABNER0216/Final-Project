@@ -1,0 +1,111 @@
+@charset "UTF-8";
+#return{
+	position:absolute;
+	left:45%;
+}
+#stucentbody{
+	height:500px;
+}
+#allcoursebody{
+	height:700px;
+}
+#studentmain{
+	background-image:url('images/studenthome.jpg');
+	background-size: cover;
+	background-position: center;
+	height:700px;
+}
+#student-mainpage1{
+	left:70%;
+	position: absolute;
+	top:30%;
+}
+#student-mainpage2{
+	left:43%;
+	position: absolute;
+	top:30%;
+}
+#student-mainpage3{
+	left:12%;
+	position: absolute;
+	top:30%;
+}
+#student-mainpage4{
+	left:12%;
+	position: absolute;
+	top:60%;
+}
+#student-mainpage5{
+	left:43%;
+	position: absolute;
+	top:60%;
+}
+#student-mainpage6{
+	left:70%;
+	position: absolute;
+	top:60%;
+}
+#detailbutton{
+	position:relative;
+	left:45%;
+}
+#detailbody{
+	width:55%;
+	position:relative;
+	left:23%;
+}
+#detailbody dt{
+	font-size:20px;
+	background-color:#4B4A4A;
+	color:white;
+	
+}
+#detailbody dd{
+	font-size:18px;
+	
+}
+#coursebutton{
+	position:absolute;
+	left:45%;
+}
+
+.theoverlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.3);
+	height:785px;
+}
+#addbutton{
+	position:relative;
+	right:100px;
+}
+#listbutton{
+	position:relative;
+	left:45%;
+}
+#available{
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+#tablebody{
+	position:relative;
+	left:30%;
+}
+#theequip{
+	position:relative;
+	left:40%;
+	height:200px;
+}
+#equipmentbutton{
+	position:relative;
+	left:100px;
+	top:20px;
+}
+#historybutton{
+	position:relative;
+	left:45%;
+}
