@@ -4,7 +4,10 @@
 > This is the group project for course SWE306 from Xiamen University Malaysia
 
 The project is a XMUM Fitness Management System. It has actors: Coach, Student, Admin. It can do basic functions of a gym management system like choosing course, borrowing equipment and ordering places.
-The report will be attached after I finish it.
+
+2021/12/26 Updation
+
+Report and Presentation slide are attached
 
 ## Authors
 
