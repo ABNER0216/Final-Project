@@ -21,7 +21,7 @@ Thanks for my friends contribution!
 
 - The project is developed by Java SE 16, run on Tomcat 10.0, with dependencies mysql-connector-java-8.0.27.jar， jakarta.servlet.jsp.jstl-api-2.0.0.jar， jakarta.servlet.jsp.jstl-2.0.0.jar
 
-## Technical
+## Contact
 
 For further information, feel free to contact us
 - QQ: 644044443
