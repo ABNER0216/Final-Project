@@ -11,6 +11,7 @@ The report will be attached after I finish it.
 - LEI YITAO SWE1909475
 - YU KEXIN  SWE1909501
 - XIAO YIHONG DMT1909204
+Thanks for my friends contribution!
 
 ## Technical
 
